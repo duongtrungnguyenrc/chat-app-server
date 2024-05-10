@@ -22,52 +22,76 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# Nest JS Realtime Chat
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Welcome to React Native Chat. this is a realtime chat application created by React Native Expo, Redux toolkit, Nest JS
 
-## Installation
+## Required:
 
-```bash
-$ npm install
+- Node JS runtime: Version 20.10.0 or early
+- Node Pakage Manager: Recommended using Yarn and NPM
+- Localhost Port: 3000 (for Resful API server), 3001 (for Socket gateway), 8081 (for Expo Metro)
+- Android or IOS virtual device
+- (Optional) Expo go application: download Expo go application on your physical device to debug on your device
+- (Optional) Docker: Version 24.6 or early
+- (Optional) Git CLI: Git command line interface to clone source code
+
+## How to run:
+
+- Step 1: Clone React Native client
+```sh
+git clone 'https://github.com/duongtrungnguyenrc/chat-app-server.git'
+```
+or
+Access to 'https://github.com/duongtrungnguyenrc/chat-app-server' and download source code
+
+- Step 2: Clone Nest JS server
+```sh
+git clone 'https://github.com/duongtrungnguyenrc/react-native-chat.git'
+```
+or
+Access to 'https://github.com/duongtrungnguyenrc/react-native-chat' and download source code
+
+- Step 3: Go to project
+### NOTE:  
+Recommend using 2 terminal to handle.
+
+Go to server project:
+```sh
+cd <Downloaded server path>
 ```
 
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+Go to client project:
+```sh
+cd <Downloaded client path>
 ```
 
-## Test
+- Step 4: Install dependencies
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+In server terminal:
+```sh
+npm install
 ```
 
-## Support
+In server terminal:
+```sh
+yarn install
+```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- Step 5: Start project
 
-## Stay in touch
+In server terminal:
+```sh
+npm start
+```
+![Screenshot 2024-05-10 at 19 14 38](https://github.com/duongtrungnguyenrc/react-native-chat/assets/111481047/73141cd3-9086-4434-805c-814b286eff30)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+In server terminal:
+```sh
+yarn start
+```
+![Screenshot 2024-05-10 at 19 16 00](https://github.com/duongtrungnguyenrc/react-native-chat/assets/111481047/7ebe8773-69fa-4154-bb71-f9f3f4559c61)
 
-## License
+## Have a good day 😆
 
-Nest is [MIT licensed](LICENSE).
+This project created by Duong Trung Nguyen - https://github.com/duongtrungnguyenrc
